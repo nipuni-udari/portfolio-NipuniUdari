@@ -18,7 +18,7 @@ const greeting = {
     " I'm all about combining visual design with product thinking to bring meaningful experiences alive who's passionate about creating digital experiences through problem-solving. I fell in love with coding, exploring, travelling, Photography,Painting,designing."
   ),
   resumeLink:
-  "https://drive.google.com/file/d/1FOhnh09oLcLgfuooNvBC3L_rht5APRYk/view?usp=sharing", // Set to empty to hide the button
+  "https://drive.google.com/file/d/16QiXSJjg2E2STxWsSCbri_ZaJQY646pR/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -125,7 +125,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
-    
+   
   ],
   display: true // Set false to hide this section, defaults to true
 };
