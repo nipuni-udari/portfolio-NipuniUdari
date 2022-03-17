@@ -22,6 +22,7 @@ function Header() {
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
 
+
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
@@ -51,7 +52,12 @@ function Header() {
           )}
           {viewOpenSource && (
             <li>
-              <a href="#projects">My Projects</a>
+              <a href="#projects">Projects</a>
+            </li>
+          )}
+          {viewAchievement && (
+            <li>
+              <a href="#achievements">Achievements</a>
             </li>
           )}
          

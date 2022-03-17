@@ -302,7 +302,7 @@ const bigProjects = {
     {
       image: require("./assets/images/p3.png"),
       projectName: "Mobile Application",
-      projectDesc: "I have delevopled full stack E commerce App using react native and backend developed using Google firebase.Designers are responsible for the overall style of the app, including things like the colour scheme, font selection, and the types of buttons and widgets the user will use.So I conduct a survey for that",
+      projectDesc: "I have developed full stack E commerce App using react native and backend developed using Google firebase.Designers are responsible for the overall style of the app, including things like the colour scheme, font selection, and the types of buttons and widgets the user will use.So I conduct a survey for that",
       footerLink: [
         
         {
@@ -387,14 +387,14 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Information and Communication Technology Technician ",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "I have completed NVQ LEVEL 4, skills and competencies of an Information & Communication Technician that offered by National youth services Council, E.g. to install and implement database management system and database application packages,  graphic design, to identify user requirements for software solution, to analyze requirements and design functionality of software solution, to develop and host websites, to Assemble computer components and install software, to Troubleshoot of Hardware, Software and Network, to configuration of basic of Network ,and configure IT Infrastructure Security.",
+      image: require("./assets/images/nvq.png"),
       footerLink: [
         {
           name: "Certification",
@@ -411,10 +411,10 @@ const achievementSection = {
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Fundamentals of Digital Marketing",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Fundamentals of Digital Marketing Google is the only Google Digital Marketing Certification accredited by the international accreditation board.I have completed 26 modules, EG:The online opportunity,Online success,Web presence,Online business Strategy,Improve your search campaign,Get noticed locally,Help people nearby find you online,Deep dive in social media,Make mobile work for you,Content marketing,connect through email,Advertise on other websites,Analytics,Turn data into insights,Build the online shop,Sell more,Expand Internationally,Display advertising",
+      image: require("./assets/images/google.png"),
       footerLink: [
         {
           name: "View Google Assistant Action",
@@ -424,9 +424,9 @@ const achievementSection = {
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Python For Machine Learning",
+      subtitle: "GREAT LEARNING ACADEMY offers Python for Machine Learning certificate course.ython is a great tool to implement algorithms for production use. There are several Python packages for basic data analysis and machine learning. In this course, I have learnt about two popular packages in Python: NumPy and Pandas.I have completed Intro to Numpy,Joining NumPy Arrays,Numpy Intersection & Difference,Numpy Array Mathematics,Saving and Loading Numpy Array,Intro to Pandas,Pandas Series Object,Intro to Pandas Dataframe,Pandas Functions",
+      image: require("./assets/images/learn.png"),
       footerLink: [
         {name: "Certification", url: ""},
         {
@@ -438,7 +438,7 @@ const achievementSection = {
    
 
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
