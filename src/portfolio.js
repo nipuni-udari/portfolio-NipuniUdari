@@ -242,7 +242,7 @@ const workExperiences = {
     },
     {
       role: "Media Crew Member",
-      company: "Leo Club of District 306 C2 USJP",
+      company: "Leo Club of District 306 C2 ",
       companylogo: require("./assets/images/leo1.jpg"),
       date: " February 2021 – Present",
       desc: "Leo Club of District 306 C2 University of Sri Jayewardenepura sponsored by Lions Club of Colombo Chariot is established in the year 2019 .so I could develop my leadership qualities by participating in social activities.And also I am giving my visual design support for charity."
@@ -398,16 +398,12 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1sfRCAYySq3FuqWVeK_jhwybI5sfwvSYh/view?usp=sharing"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          name: "Website",
+          url: "https://www.tvec.gov.lk/"
         },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
       ]
     },
     {
@@ -417,22 +413,26 @@ const achievementSection = {
       image: require("./assets/images/google.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1nNLVrRKeEDw-wBves_2FjNZ0-wXD3k0_/view?usp=sharing"
+        },
+        {
+          name: "Website",
+          url: "https://learndigital.withgoogle.com/digitalgarage/course/digital-marketing"
+        },
       ]
     },
 
     {
       title: "Python For Machine Learning",
-      subtitle: "GREAT LEARNING ACADEMY offers Python for Machine Learning certificate course.ython is a great tool to implement algorithms for production use. There are several Python packages for basic data analysis and machine learning. In this course, I have learnt about two popular packages in Python: NumPy and Pandas.I have completed Intro to Numpy,Joining NumPy Arrays,Numpy Intersection & Difference,Numpy Array Mathematics,Saving and Loading Numpy Array,Intro to Pandas,Pandas Series Object,Intro to Pandas Dataframe,Pandas Functions",
+      subtitle: "GREAT LEARNING ACADEMY offers Python for Machine Learning certificate course.python is a great tool to implement algorithms for production use. There are several Python packages for basic data analysis and machine learning. In this course, I have learnt about two popular packages in Python: NumPy and Pandas.I have completed Intro to Numpy, Joining NumPy Arrays, Numpy Intersection & Difference, Numpy Array Mathematics,Saving and Loading Numpy Array,Intro to Pandas, Pandas Series Object, Intro to Pandas Data frame,Pandas Functions modules as in the course content.",
       image: require("./assets/images/learn.png"),
       footerLink: [
-        {name: "Certification", url: ""},
+        {name: "Certification", url: "https://olympus1.mygreatlearning.com/course_certificate/JSARFNBX"},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+          name: "Website",
+          url: "https://www.mygreatlearning.com/academy/courses/4585506/10899#?utm_source=share_with_friends"
+        },
       ]
     },
    
