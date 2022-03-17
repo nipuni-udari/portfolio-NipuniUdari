@@ -242,7 +242,7 @@ const workExperiences = {
     },
     {
       role: "Media Crew Member",
-      company: "Leo Club of District 306 C2 ",
+      company: "Leo Club of District 306 C2",
       companylogo: require("./assets/images/leo1.jpg"),
       date: " February 2021 – Present",
       desc: "Leo Club of District 306 C2 University of Sri Jayewardenepura sponsored by Lions Club of Colombo Chariot is established in the year 2019 .so I could develop my leadership qualities by participating in social activities.And also I am giving my visual design support for charity."
