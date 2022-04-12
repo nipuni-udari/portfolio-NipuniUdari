@@ -18,7 +18,7 @@ const greeting = {
     " I'm all about combining visual design with product thinking to bring meaningful experiences alive who's passionate about creating digital experiences through problem-solving. I fell in love with coding, exploring, travelling, Photography,Painting,designing."
   ),
   resumeLink:
-  "https://drive.google.com/file/d/16QiXSJjg2E2STxWsSCbri_ZaJQY646pR/view?usp=sharing", // Set to empty to hide the button
+  "https://drive.google.com/file/d/1iR4_Htg02mu0Xr2Na1TqKraRKH7ltnn_/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
