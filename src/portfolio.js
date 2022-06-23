@@ -320,6 +320,18 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/p4.png"),
+      projectName: "School Management System",
+      projectDesc: "Main Purpose of School management system is to make the whole school Activities on System.It would record student information. It cannot be altered or modified by other users except for the administrator. It develops using Java.Backend developed using php myadmin database.",
+      footerLink: [
+        
+        {
+          name: "view Source code",
+          url: "https://github.com/rw-nipuni"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/kod.png"),
       projectName: "company website User Interface revamping",
       projectDesc: "The first impressions are 94% design related.I designed a website user interface using figma online tool.I got a new look for the website by Using different buttons, navigations, colors , pictures.Accourding to the given feedbacks it is a user friendly UI and easy to use.Rather than the old ui it's get a new cool look for the website homepage",
