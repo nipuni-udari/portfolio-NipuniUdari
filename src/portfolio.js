@@ -351,6 +351,18 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/p5.png"),
+      projectName: "Employee and Payroll management system",
+      projectDesc: "This Software is designed to make the existing manual system automatic with the help of computerized equipment and full-edged computer software, fulfilling their requirements, so that their valuable data and information can be stored for a longer period with easy access and manipulation of the same using.",
+      footerLink: [
+        
+        {
+          name: "view Source code",
+          url: "https://github.com/rw-nipuni"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/p6.png"),
       projectName: "Graphic designs",
       projectDesc: "Graphic designs combine these three elements to form a single, cohesive visual composition of ideas and messaging.I am working in a lots of clubs in the university.So I have to create Flyers,Posters,Coffee table book,logos,digital Arts,Presentations for variety of purposes.Usually I am using photoshop & Illustrator for my designs.",
