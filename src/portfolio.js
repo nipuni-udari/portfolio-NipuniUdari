@@ -271,7 +271,54 @@ const bigProjects = {
   title: "My Projects",
   subtitle: "There are many kind of projects that I have done so far.",
   projects: [
-    
+    {
+      image: require("./assets/images/p1.png"),
+      projectName: "Coffee table book",
+      projectDesc: "Coffee table books need lots of it, in the form of generous margins, space around images, and space between lines of type.This coffee table book is a must-have for anyone who loves horror .I have included so many interesting characters.logos are designed using illustrator. Totaly book is designed using photoshop.",
+      
+      footerLink: [
+        {
+          name: "Visit project",
+          url: "https://www.behance.net/gallery/138281981/Cooffe-table-book"
+        },
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/p2.png"),
+      projectName: "Hotel Website",
+      projectDesc: "A good hotel website should have a clean design,be easy to navigate and include a lot of social proof. Have a look at this page . I have designed Website for cinnoman lodge hotel Habarana using Html, css, Js.It contains Facilities,Gallery,contacts,services, Feedbacks etc:It's easy to use and navigate between tabs.",
+      footerLink: [
+        {
+          name: "Visit project",
+          url: "https://gdlmmuf5mkdbjxbzimtqhq-on.drv.tw/www.cinnomanhotel.com/Cinnoman%20Hotel%20Website/Main.html"
+        },
+        {
+          name: "view Source code",
+          url: "https://github.com/rw-nipuni"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/p3.png"),
+      projectName: "Mobile Application",
+      projectDesc: "I have developed full stack E commerce App using react native and backend developed using Google firebase.Designers are responsible for the overall style of the app, including things like the colour scheme, font selection, and the types of buttons and widgets the user will use.So I conduct a survey for that",
+      footerLink: [
+        
+        {
+          name: "view Source code",
+          url: "https://github.com/rw-nipuni"
+        },
+        {
+          name: "view UI design",
+          url: "https://www.figma.com/file/SeQDpKXI3DzPL6HvQUeYS3/FINAL-PROJECT-Xpress-E-TECH-APP-(AF%2F18%2F14804)?node-id=29%3A196"
+        },
+        {
+          name: "view Prototype",
+          url: "https://www.figma.com/proto/SeQDpKXI3DzPL6HvQUeYS3/FINAL-PROJECT-Xpress-E-TECH-APP-(AF%2F18%2F14804)?node-id=3%3A5&scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A2&show-proto-sidebar=1"
+        },
+      ]
+    },
     {
       image: require("./assets/images/kod.png"),
       projectName: "company website User Interface revamping",
