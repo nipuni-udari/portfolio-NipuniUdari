@@ -385,6 +385,45 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/p6.png"),
+      projectName: "UI Designs",
+      projectDesc: "UI designs combine these three elements to form a single, cohesive visual composition of ideas and messaging.I am working in a lots of clubs in the university.So I have to create Flyers,Posters,Coffee table book,logos,digital Arts,Presentations for variety of purposes.Usually I am using photoshop & Illustrator for my designs.",
+      
+      footerLink: [
+        {
+          name: "View projects",
+          url: "https://www.behance.net/nipuniudari1"
+        },
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/p6.png"),
+      projectName: "IOT Project",
+      projectDesc: "UI designs combine these three elements to form a single, cohesive visual composition of ideas and messaging.I am working in a lots of clubs in the university.So I have to create Flyers,Posters,Coffee table book,logos,digital Arts,Presentations for variety of purposes.Usually I am using photoshop & Illustrator for my designs.",
+      
+      footerLink: [
+        {
+          name: "View projects",
+          url: "https://www.behance.net/nipuniudari1"
+        },
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/p6.png"),
+      projectName: "Mern Web Application",
+      projectDesc: "UI designs combine these three elements to form a single, cohesive visual composition of ideas and messaging.I am working in a lots of clubs in the university.So I have to create Flyers,Posters,Coffee table book,logos,digital Arts,Presentations for variety of purposes.Usually I am using photoshop & Illustrator for my designs.",
+      
+      footerLink: [
+        {
+          name: "View projects",
+          url: "https://www.behance.net/nipuniudari1"
+        },
+        //  you can add extra buttons here.
+      ]
+    },
+    {
       image: require("./assets/images/p7.png"),
       projectName: "Portfolio Website",
       projectDesc: "A design portfolio is a showcase of professional skills, About, projects, Blogs, Experiences education,contact and knowledge. React js , Html, Css used for creating this.To resize images photoshop used and canva used to link my resume.So many social media links used for spreading more details of my self.So It contains all the basics that needed.",
@@ -524,7 +563,7 @@ const podcastSection = {
   podcast: [
     "https://youtu.be/f7r6pQYRCOI"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -539,7 +578,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
