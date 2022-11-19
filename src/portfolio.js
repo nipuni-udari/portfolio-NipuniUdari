@@ -199,18 +199,18 @@ const techStack = {
     },
     {
       Stack: "Frontend developing",
-      progressPercentage: "60%"
-    },
-    {
-      Stack: "Backend developing",
       progressPercentage: "50%"
     },
     {
+      Stack: "Backend developing",
+      progressPercentage: "40%"
+    },
+    {
       Stack: "UI/UX",
-      progressPercentage: "80%"
+      progressPercentage: "90%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -283,6 +283,7 @@ const bigProjects = {
     {
       image: require("./assets/images/p1.png"),
       projectName: "Coffee table book",
+      projectDesc: "Coffee table books need lots of it, in the form of generous margins, space around images, and space between lines of type.This coffee table book is a must-have for anyone who loves horror .I have included so many interesting characters.logos are designed using illustrator. Totaly book is designed using photoshop.",
       
       footerLink: [
         {
