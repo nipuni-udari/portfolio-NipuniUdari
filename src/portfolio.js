@@ -283,7 +283,6 @@ const bigProjects = {
     {
       image: require("./assets/images/p1.png"),
       projectName: "Coffee table book",
-      projectDesc: "Coffee table books need lots of it, in the form of generous margins, space around images, and space between lines of type.This coffee table book is a must-have for anyone who loves horror .I have included so many interesting characters.logos are designed using illustrator. Totaly book is designed using photoshop.",
       
       footerLink: [
         {
