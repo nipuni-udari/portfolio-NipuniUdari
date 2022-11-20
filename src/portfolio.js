@@ -34,7 +34,7 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/rw-nipuni",
+  github: "https://github.com/nipuni-udari",
   linkedin: "https://www.linkedin.com/in/nipuni-udari-922062218/",
   gmail: "96770@fhss.sjp.ac.lk",
   instagram:"https://www.instagram.com/nipuni.udari/",
