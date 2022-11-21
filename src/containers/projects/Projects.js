@@ -26,12 +26,7 @@ export default function Projects() {
         .then(response => {
           setrepoFunction(response.data.user.pinnedItems.edges);
         })
-        .catch(function (error) {
-          console.error(
-            error 
-          );
-          setrepoFunction("Error");
-        });
+
     };
     getRepoData();
   }, []);

@@ -281,9 +281,9 @@ const bigProjects = {
   subtitle: "There are many kind of projects that I have done so far.",
   projects: [
     {
-      image: require("./assets/images/p1.png"),
+      image: require("./assets/images/coffe.png"),
       projectName: "Coffee table book",
-      projectDesc: "Coffee table books need lots of it, in the form of generous margins, space around images, and space between lines of type.This coffee table book is a must-have for anyone who loves horror .I have included so many interesting characters.logos are designed using illustrator. Totaly book is designed using photoshop.",
+      projectDesc: "Coffee table books need lots of it, in the form of generous margins, space around images, and space between lines of type.This coffee table book is a must-have for anyone who loves horror .I have included so many interesting characters.logos are designed using illustrator. Totaly book is designed using photoshop.Hallowin feeling is explored everywhere.",
       
       footerLink: [
         {
@@ -293,86 +293,9 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
+    
     {
-      image: require("./assets/images/p2.png"),
-      projectName: "Hotel Website",
-      projectDesc: "A good hotel website should have a clean design,be easy to navigate and include a lot of social proof. Have a look at this page . I have designed Website for cinnoman lodge hotel Habarana using Html, css, Js.It contains Facilities,Gallery,contacts,services, Feedbacks etc:It's easy to use and navigate between tabs.",
-      footerLink: [
-        {
-          name: "Visit project",
-          url: "https://gdlmmuf5mkdbjxbzimtqhq-on.drv.tw/www.cinnomanhotel.com/Cinnoman%20Hotel%20Website/Main.html"
-        },
-        {
-          name: "view Source code",
-          url: "https://github.com/rw-nipuni"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/p3.png"),
-      projectName: "Mobile Application",
-      projectDesc: "I have developed full stack E commerce App using react native and backend developed using Google firebase.Designers are responsible for the overall style of the app, including things like the colour scheme, font selection, and the types of buttons and widgets the user will use.So I conduct a survey for that",
-      footerLink: [
-        
-        {
-          name: "view Source code",
-          url: "https://github.com/rw-nipuni"
-        },
-        {
-          name: "view UI design",
-          url: "https://www.figma.com/file/SeQDpKXI3DzPL6HvQUeYS3/FINAL-PROJECT-Xpress-E-TECH-APP-(AF%2F18%2F14804)?node-id=29%3A196"
-        },
-        {
-          name: "view Prototype",
-          url: "https://www.figma.com/proto/SeQDpKXI3DzPL6HvQUeYS3/FINAL-PROJECT-Xpress-E-TECH-APP-(AF%2F18%2F14804)?node-id=3%3A5&scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A2&show-proto-sidebar=1"
-        },
-      ]
-    },
-    {
-      image: require("./assets/images/p4.png"),
-      projectName: "School Management System",
-      projectDesc: "Main Purpose of School management system is to make the whole school Activities on System.It would record student information. It cannot be altered or modified by other users except for the administrator. It develops using Java.Backend developed using php myadmin database.",
-      footerLink: [
-        
-        {
-          name: "view Source code",
-          url: "https://github.com/rw-nipuni"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/kod.png"),
-      projectName: "company website User Interface revamping",
-      projectDesc: "The first impressions are 94% design related.I designed a website user interface using figma online tool.I got a new look for the website by Using different buttons, navigations, colors , pictures.Accourding to the given feedbacks it is a user friendly UI and easy to use.Rather than the old ui it's get a new cool look for the website homepage",
-      footerLink: [
-
-        {
-          name: "view Template",
-          url: "https://www.figma.com/file/8U6oJJJfHYCHv8sONc8iLc/kodplex-company-website?node-id=0%3A1"
-        },
-        
-        {
-          name: "view Prototype",
-          url: "https://www.figma.com/proto/8U6oJJJfHYCHv8sONc8iLc/kodplex-company-website?node-id=2%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2"
-        },
-        
-
-      ]
-    },
-    {
-      image: require("./assets/images/p5.png"),
-      projectName: "Employee and Payroll management system",
-      projectDesc: "This Software is designed to make the existing manual system automatic with the help of computerized equipment and full-edged computer software, fulfilling their requirements, so that their valuable data and information can be stored for a longer period with easy access and manipulation of the same using.",
-      footerLink: [
-        
-        {
-          name: "view Source code",
-          url: "https://github.com/rw-nipuni"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/p6.png"),
+      image: require("./assets/images/graphic.png"),
       projectName: "Graphic designs",
       projectDesc: "Graphic designs combine these three elements to form a single, cohesive visual composition of ideas and messaging.I am working in a lots of clubs in the university.So I have to create Flyers,Posters,Coffee table book,logos,digital Arts,Presentations for variety of purposes.Usually I am using photoshop & Illustrator for my designs.",
       
@@ -385,9 +308,9 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/p6.png"),
-      projectName: "UI Designs",
-      projectDesc: "UI designs combine these three elements to form a single, cohesive visual composition of ideas and messaging.I am working in a lots of clubs in the university.So I have to create Flyers,Posters,Coffee table book,logos,digital Arts,Presentations for variety of purposes.Usually I am using photoshop & Illustrator for my designs.",
+      image: require("./assets/images/UI.png"),
+      projectName: "UI/UX design",
+      projectDesc: "The first impressions are 94% design related.I designed apps and website user interface using figma online tool.I got a new look for the website by Using different buttons, navigations, colors , pictures.Accourding to the given feedbacks it is a user friendly UI and easy to use.I always try to reach a new look and feel for the projects.And using some online websites for pics.",
       
       footerLink: [
         {
@@ -398,48 +321,19 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/p6.png"),
+      image: require("./assets/images/iot.png"),
       projectName: "IOT Project",
-      projectDesc: "UI designs combine these three elements to form a single, cohesive visual composition of ideas and messaging.I am working in a lots of clubs in the university.So I have to create Flyers,Posters,Coffee table book,logos,digital Arts,Presentations for variety of purposes.Usually I am using photoshop & Illustrator for my designs.",
+      projectDesc: "smart Dustbin is a very good project from the Arduino board.Smart Dustbin as its name represents it works smartly or we can say that it is an automatic dustbin. it works like when you will come in front of this dustbin it will open automatically with the help of a servo motor. so there is some sensor work to detect the object in front of the dustbin",
       
       footerLink: [
         {
           name: "View projects",
-          url: "https://www.behance.net/nipuniudari1"
+          url: "https://youtu.be/f7r6pQYRCOI"
         },
         //  you can add extra buttons here.
       ]
     },
-    {
-      image: require("./assets/images/p6.png"),
-      projectName: "Mern Web Application",
-      projectDesc: "UI designs combine these three elements to form a single, cohesive visual composition of ideas and messaging.I am working in a lots of clubs in the university.So I have to create Flyers,Posters,Coffee table book,logos,digital Arts,Presentations for variety of purposes.Usually I am using photoshop & Illustrator for my designs.",
-      
-      footerLink: [
-        {
-          name: "View projects",
-          url: "https://www.behance.net/nipuniudari1"
-        },
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/p7.png"),
-      projectName: "Portfolio Website",
-      projectDesc: "A design portfolio is a showcase of professional skills, About, projects, Blogs, Experiences education,contact and knowledge. React js , Html, Css used for creating this.To resize images photoshop used and canva used to link my resume.So many social media links used for spreading more details of my self.So It contains all the basics that needed.",
-      
-      footerLink: [
-        {
-          name: "Visit source code",
-          url: "https://github.com/nipuni-udari/portfolio-nipuniUdari"
-        },
-        {
-          name: "Visit website",
-          url: "https://www.nipuniudari.tech/"
-        },
-        //  you can add extra buttons here.
-      ]
-    },
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -454,10 +348,9 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Information and Communication Technology Technician ",
-      subtitle:
-        "I have completed NVQ LEVEL 4, skills and competencies of an Information & Communication Technician that offered by National youth services Council, E.g. to install and implement database management system and database application packages,  graphic design, to identify user requirements for software solution, to analyze requirements and design functionality of software solution, to develop and host websites, to Assemble computer components and install software, to Troubleshoot of Hardware, Software and Network, to configuration of basic of Network ,and configure IT Infrastructure Security.",
-      image: require("./assets/images/nvq.png"),
+      title: "ICT NVQ LEVEL 4 ",
+      
+      image: require("./assets/images/1.png"),
       footerLink: [
         {
           name: "Certification",
@@ -469,32 +362,39 @@ const achievementSection = {
         },
       ]
     },
+    
     {
-      title: "Fundamentals of Digital Marketing",
-      subtitle:
-        "Fundamentals of Digital Marketing Google is the only Google Digital Marketing Certification accredited by the international accreditation board.I have completed 26 modules, EG:The online opportunity,Online success,Web presence,Online business Strategy,Improve your search campaign,Get noticed locally,Help people nearby find you online,Deep dive in social media,Make mobile work for you,Content marketing,connect through email,Advertise on other websites,Analytics,Turn data into insights,Build the online shop,Sell more,Expand Internationally,Display advertising",
-      image: require("./assets/images/google.png"),
+      title: "Introduction to IoT",
+      image: require("./assets/images/2.png"),
       footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/1nNLVrRKeEDw-wBves_2FjNZ0-wXD3k0_/view?usp=sharing"
-        },
+        {name: "Certification", url: "https://www.credly.com/badges/3fb711e3-de3d-4311-8870-06d2447b3d52?source=linked_in_profile"},
         {
           name: "Website",
-          url: "https://learndigital.withgoogle.com/digitalgarage/course/digital-marketing"
+          url: "https://www.cisco.com/c/en/us/solutions/internet-of-things/overview.html"
         },
       ]
     },
 
     {
-      title: "Python For Machine Learning",
-      subtitle: "GREAT LEARNING ACADEMY offers Python for Machine Learning certificate course.python is a great tool to implement algorithms for production use. There are several Python packages for basic data analysis and machine learning. In this course, I have learnt about two popular packages in Python: NumPy and Pandas.I have completed Intro to Numpy, Joining NumPy Arrays, Numpy Intersection & Difference, Numpy Array Mathematics,Saving and Loading Numpy Array,Intro to Pandas, Pandas Series Object, Intro to Pandas Data frame,Pandas Functions modules as in the course content.",
-      image: require("./assets/images/learn.png"),
+      title: "Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning",
+      image: require("./assets/images/3.png"),
       footerLink: [
-        {name: "Certification", url: "https://olympus1.mygreatlearning.com/course_certificate/JSARFNBX"},
+        {name: "Certification", url: "https://www.coursera.org/account/accomplishments/verify/XSDVZ3NN7ACW"},
         {
           name: "Website",
-          url: "https://www.mygreatlearning.com/academy/courses/4585506/10899#?utm_source=share_with_friends"
+          url: "https://www.coursera.org/learn/introduction-tensorflow"
+        },
+      ]
+    },
+
+    {
+      title: "Introduction to Deep Learning with OpenCV",
+      image: require("./assets/images/6.png"),
+      footerLink: [
+        {name: "Certification", url: "https://drive.google.com/file/d/1bmfm8r74TPUzvqlaL8MAZHE7yYpZBiYT/view?usp=share_link"},
+        {
+          name: "Website",
+          url: "https://www.linkedin.com/learning/introduction-to-deep-learning-with-opencv"
         },
       ]
     },
@@ -510,7 +410,7 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://nipuni-udari.blogspot.com/2022/02/role-of-mass-media-in-managing-covid-19.html",
@@ -571,7 +471,7 @@ const contactInfo = {
   subtitle:
     "Feel free to snoop around on my SOCIAL MEDIA.",
   number: "+94-711064083",
-  email_address: "96770@fhss.sjp.ac.lk"
+  email_address: "1nipuniudari@gmail.com"
 };
 
 // Twitter Section
