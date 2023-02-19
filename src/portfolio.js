@@ -23,7 +23,7 @@ const greeting = {
   
   username: "Nipuni Udari",
   title: "Hi there, I'm Nipuni Udari",
-  subTitle: emoji(
+  subTitle:(
     " I'm all about combining visual design with product thinking to bring meaningful experiences alive who's passionate about creating digital experiences through problem-solving. I fell in love with coding, exploring, travelling, Photography,Painting,designing."
   ),
   resumeLink:
@@ -58,31 +58,28 @@ const skillsSection = {
   title: "My Skills",
   subTitle: "Hello! I have a passion for exploring technical world.",
   skills: [
-    emoji(
+    (
       "📌 Mobile App Ui Design"
     ),
     (" I’m passionate about pushing products to the next level through a design process visually stunning user-focused UI."),
-    emoji(
+    (
       "📌 Website Development"
     ),
     (" I have a passion for front end web development and have experience in coding HTML,CSS,JAVA SCRIPT"),
-    emoji(
+    (
       "📌 Graphic design"
     ),
     (" I love graphic design and have experience in designing brands,logos,flyers,Book covers,Powerpoint presentations."),
-    emoji(
+    (
       "📌 Mobile App Development"
     ),
     ("  I design & develop highly engaging digital experiences for the mobile using react native . Be it in, Android"),
-    emoji(
-      "📌 Mobile App Ui Design"
-    ),
-    (" I’m passionate about pushing products to the next level through a design process visually stunning user-focused UI."),
-    emoji(
+    
+    (
       "📌 Video Editing"
     ),
     ("  I have experience working on video projects for variety of purposes,and really enjoy working on video production!"),
-    emoji(
+    (
       "📌 Software Development"
     ),
     ("   sometime I’m a software engineer specializing in building (and occasionally designing)exceptional digital experiences."),
@@ -97,7 +94,7 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      fontAwesomeClassname: "fab fa-html5" 
     },
     {
       skillName: "css3",
@@ -134,7 +131,33 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
+    {
+      skillName: "Mongo DB",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "github",
+      fontAwesomeClassname: "fab fa-github" 
+    },
+    {
+      skillName: "photoshop / Illustrator",
+      fontAwesomeClassname: "fas fa-pen-nib" 
+    },
    
+    {
+      skillName: "Figma",
+      fontAwesomeClassname: "fab fa-figma" 
+    },
+    {
+      skillName: "Unity-3D",
+      fontAwesomeClassname: "fas fa-gamepad"  
+    },
+    {
+      skillName: " Adobe Premire Pro",
+      fontAwesomeClassname: "fas fa-film"  
+    },
+
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -190,25 +213,41 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Graphic Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Html / Css", //Insert stack or technology you have experience in
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
+   
     {
-      Stack: "Vedio editing",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Frontend developing",
+      Stack: "Java script",
       progressPercentage: "50%"
     },
     {
-      Stack: "Backend developing",
+      Stack: "React native",
       progressPercentage: "40%"
     },
     {
-      Stack: "UI/UX",
+      Stack: "Mern",
+      progressPercentage: "40%"
+    },
+    {
+      Stack: "bootstrap",
+      progressPercentage: "50%"
+    },{
+      Stack: "Python",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Figma",
       progressPercentage: "90%"
-    }
+    },
+    {
+      Stack: "Photoshop / Illustrator",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Premire Pro",
+      progressPercentage: "50%"
+    },
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -277,8 +316,8 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "My Projects",
-  subtitle: "There are many kind of projects that I have done so far.",
+  title: "Designing Projects",
+  subtitle: "There are so many designing projects that I have done so far.",
   projects: [
     {
       image: require("./assets/images/coffe.png"),
@@ -309,7 +348,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/UI.png"),
-      projectName: "UI/UX design",
+      projectName: "UI/UX designs",
       projectDesc: "The first impressions are 94% design related.I designed apps and website user interface using figma online tool.I got a new look for the website by Using different buttons, navigations, colors , pictures.Accourding to the given feedbacks it is a user friendly UI and easy to use.I always try to reach a new look and feel for the projects.And using some online websites for pics.",
       
       footerLink: [
@@ -320,6 +359,32 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
+   
+    
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+// Some Other projects you have worked on
+
+const ExtraProjects = {
+  title: "Other Projects",
+  subtitle: "There are some defferent kind of projects that I have done so far.",
+  projects: [
+    {
+      image: require("./assets/images/game.png" ),
+      projectName: "Roll A Ball Game",
+      projectDesc: "I developed a 3D game using unity platform.I learn throught the development process :Use Unity Editor and its built-in capabilities to set up a simple game environment,Write your own custom scripts to create the game functionality,Create a basic user interface to improve the game experience,Build my game as other people can play it!",
+      
+      footerLink: [
+        {
+          name: "Visit project",
+          url: "https://drive.google.com/drive/folders/1V8MH-zCjBFpnUR8e7I-3_Ne3YUFtQ5QH?usp=share_link"
+        },
+        //  you can add extra buttons here.
+      ]
+    },
+    
     {
       image: require("./assets/images/iot.png"),
       projectName: "IOT Project",
@@ -338,11 +403,12 @@ const bigProjects = {
   display: true // Set false to hide this section, defaults to true
 };
 
+
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: ("Achievements And Certifications 🏆 "),
   subtitle:
     "Achievements, Certifications and Some Cool Stuff that I have done !",
 
@@ -467,11 +533,11 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: ("Contact Me ☎️"),
   subtitle:
     "Feel free to snoop around on my SOCIAL MEDIA.",
   number: "+94-711064083",
-  email_address: "1nipuniudari@gmail.com"
+  email_address: "96770@fhss.sjp.ac.lk"
 };
 
 // Twitter Section
@@ -497,5 +563,6 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
+  ExtraProjects,
   twitterDetails
 };

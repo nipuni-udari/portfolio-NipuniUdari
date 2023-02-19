@@ -15,6 +15,7 @@ import Education from "./education/Education";
 import Top from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
 import Profile from "./profile/Profile";
+import OtherProjects from "./OtherProjects/OtherProjects";
 import SplashScreen from "./splashScreen/SplashScreen";
 import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
@@ -59,6 +60,7 @@ const Main = () => {
             <WorkExperience />
             <Projects />
             <StartupProject />
+            <OtherProjects/>
             <Achievement />
             <Blogs />
             <Talks />

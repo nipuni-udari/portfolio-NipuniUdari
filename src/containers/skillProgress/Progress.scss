@@ -1,12 +1,13 @@
 @import "../../_globalColor";
 
 .meter {
-  height: 20px;
+  height: 17px;
   position: relative;
   background: $progressBarBackground;
   -moz-border-radius: 25px;
   -webkit-border-radius: 25px;
   border-radius: 25px;
+  width: 85%;
 }
 .meter > span {
   display: block;
@@ -20,7 +21,7 @@
   overflow: hidden;
 }
 .skill {
-  line-height: 3.5vw;
+  line-height:10%;
 }
 .skill-bars {
   font-size: 28px;
