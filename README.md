@@ -1,7 +1,8 @@
 # Nipuni Udari portfolio ⚡️ [![GitHub](https://img.shields.io/github/license/saadpasta/developer-portfolio?color=blue)]
 A design portfolio is a showcase of professional skills, About, projects, Blogs, Experiences education,contact and knowledge. React js , Html, Css used for creating this.To resize images photoshop used and canva used to link my resume.So many social media links used for spreading more details of my self.So It contains all the basics that needed.
 
-Demo : https://www.nipuniudari.tech/
+## Demo : https://www.nipuniudari.tech/
+
 ![p7](https://user-images.githubusercontent.com/84343511/202999488-fef56f2e-bcee-46a8-9919-8ae1a4066e97.png)
  
 
