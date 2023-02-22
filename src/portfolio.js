@@ -367,22 +367,30 @@ const bigProjects = {
 
 // Some Other projects you have worked on
 
+
 const ExtraProjects = {
   title: "Other Projects",
-  subtitle: "There are some defferent kind of projects that I have done so far.",
+  subtitle: "There are some different kind of projects that I have done so far.",
   projects: [
     {
+      
       image: require("./assets/images/game.png" ),
       projectName: "Roll A Ball Game",
       projectDesc: "I developed a 3D game using unity platform.I learn throught the development process :Use Unity Editor and its built-in capabilities to set up a simple game environment,Write your own custom scripts to create the game functionality,Create a basic user interface to improve the game experience,Build my game as other people can play it!",
       
       footerLink: [
         {
+          name: "View project",
+          url: "https://drive.google.com/drive/folders/1V8MH-zCjBFpnUR8e7I-3_Ne3YUFtQ5QH?usp=share_link"
+        },
+        {
           name: "Visit project",
           url: "https://drive.google.com/drive/folders/1V8MH-zCjBFpnUR8e7I-3_Ne3YUFtQ5QH?usp=share_link"
         },
         //  you can add extra buttons here.
-      ]
+      ],
+      
+      
     },
     
     {
@@ -392,7 +400,7 @@ const ExtraProjects = {
       
       footerLink: [
         {
-          name: "View projects",
+          name: "View project",
           url: "https://youtu.be/f7r6pQYRCOI"
         },
         //  you can add extra buttons here.
