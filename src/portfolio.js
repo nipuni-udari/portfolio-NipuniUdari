@@ -381,7 +381,7 @@ const ExtraProjects = {
       footerLink: [
         {
           name: "View project",
-          url: "https://drive.google.com/drive/folders/1V8MH-zCjBFpnUR8e7I-3_Ne3YUFtQ5QH?usp=share_link"
+          url: "https://youtu.be/Mg3f-qKhzSY"
         },
         {
           name: "Visit project",
