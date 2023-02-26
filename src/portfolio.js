@@ -174,7 +174,9 @@ const educationInfo = {
       duration: "March 2020 - Present",
       desc: "",
       descBullets: [
-        "In the First year I followed Statistics ,Media,Anthropology and ICT.Now I am following ICT BSC.Hons degree.I am working for a lots of clubs and I have completed so many projects in my university life.",
+        " In the First year I followed Statistics ,Media,Anthropology and ICT. ",
+        " Now I am following ICT BSC.Hons degree.",
+        " I am working for a lots of clubs and I have completed so many projects in my university life.",
         
       ]
     },
@@ -192,7 +194,9 @@ const educationInfo = {
       subHeader: "Advanced level",
       duration: "January 2017- March 2020",
       
-      descBullets: ["I went to Tangalle girls college for studying Advanced level and I followed Logic,Media,Political as my Advanced level subjects.It helps to pass my advanced level exam with high marks and come through my university dream."]
+      descBullets: ["I went to Tangalle girls college for studying Advanced level",
+      " I followed Logic,Media,Political as my Advanced level subjects",
+      "It helps to pass my advanced level exam with Two A Passes & B pass (AAB) and come through my university dream."]
     },
     {
       schoolName: "H/ Vijayaba National School",
@@ -200,7 +204,8 @@ const educationInfo = {
       subHeader: "Primary to O/L",
       duration: "January 2004-January 2017",
 
-      descBullets: ["I went to Hungama vijayaba national  college since my primary to  ordinary level and This is my first school.It helps to pass my o/l with high marks."]
+      descBullets: ["I went to Hungama vijayaba national  college since my primary to  ordinary level .",
+      "It helps to pass my o/l with high marks(A-6 , B-3)."]
       
       
     }
