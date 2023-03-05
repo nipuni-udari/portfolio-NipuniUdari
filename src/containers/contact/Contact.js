@@ -58,7 +58,7 @@ export default function Contact() {
             ) : (
               <img
                 alt="nipuni"
-                src={require("../../assets/images/contact.png")}
+                src={require("../../assets/images/QR.png")}
                 
               ></img>
               
