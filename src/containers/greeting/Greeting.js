@@ -56,7 +56,7 @@ export default function Greeting() {
             ) : (
               <img
                 alt="Nipuni udari"
-                src={require("../../assets/images/bb.png")}
+                src={require("../../assets/images/ss.png")}
               ></img>
             )}
           </div>
