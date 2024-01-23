@@ -27,7 +27,7 @@ const greeting = {
     " I'm all about combining visual design with product thinking to bring meaningful experiences alive who's passionate about creating digital experiences through problem-solving. I fell in love with coding, exploring, travelling, Photography,Painting,designing."
   ),
   resumeLink:
-  "https://drive.google.com/file/d/1iRBY31Nx2cccHF7BTYY9SlirOuSmOX0T/view?usp=sharing", // Set to empty to hide the button
+  "https://drive.google.com/file/d/1EfXliXjRlldO2ItkNsO1vnKHVdwmghul/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -35,16 +35,14 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/nipuni-udari",
-  linkedin: "https://www.linkedin.com/in/nipuni-udari-922062218/",
-  gmail: "96770@fhss.sjp.ac.lk",
+  linkedin: "https://www.linkedin.com/in/nipuni-udari/",
+  gmail: "udariweeraman@gmail.com",
   instagram:"https://www.instagram.com/nipuni.udari/",
   telegram:"@Udari_rajapaksha",
   behance:"https://www.behance.net/nipuniudari1",
   twitter:"https://twitter.com/NipuniUdari",
-  blogger:"https://www.blogger.com/profile/15777733763543233156",
-  
+  medium:"https://udarirajapaksha.medium.com", 
   facebook: "https://www.facebook.com/nipuni.udari.92",
-  
   stackoverflow: "https://stackoverflow.com/users/18332438/nipuni-udari",
   
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -55,37 +53,21 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "My Skills",
+  title: "My Skills 🪄",
   subTitle: "Hello! I have a passion for exploring technical world.",
   skills: [
-    (
-      "📌 Mobile App Ui Design"
-    ),
-    (" I’m passionate about pushing products to the next level through a design process visually stunning user-focused UI."),
-    (
-      "📌 Website Development"
-    ),
-    (" I have a passion for front end web development and have experience in coding HTML,CSS,JAVA SCRIPT"),
-    (
-      "📌 Graphic design"
-    ),
-    (" I love graphic design and have experience in designing brands,logos,flyers,Book covers,Powerpoint presentations."),
-    (
-      "📌 Mobile App Development"
-    ),
-    ("  I design & develop highly engaging digital experiences for the mobile using react native . Be it in, Android"),
-    
-    (
-      "📌 Video Editing"
-    ),
-    ("  I have experience working on video projects for variety of purposes,and really enjoy working on video production!"),
-    (
-      "📌 Software Development"
-    ),
-    ("   sometime I’m a software engineer specializing in building (and occasionally designing)exceptional digital experiences."),
-    
-    
-    
+    "🌟 Mobile App Ui Design",
+    " I’m passionate about pushing products to the next level through a design process visually stunning user-focused UI.",
+    "🌟 Website Development",
+    " I have a passion for front end web development and have experience in coding HTML,CSS,JAVA SCRIPT",
+    "🌟 Graphic design",
+    " I love graphic design and have experience in designing brands,logos,flyers,Book covers,Powerpoint presentations.",
+    "🌟 Mobile App Development",
+    "  I design & develop highly engaging digital experiences for the mobile using react native . Be it in, Android",
+    "🌟 Video Editing",
+    "  I have experience working on video projects for variety of purposes,and really enjoy working on video production!",
+    "🌟 Software Development",
+    "   sometime I’m a software engineer specializing in building (and occasionally designing)exceptional digital experiences."
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -94,13 +76,13 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5" 
+      fontAwesomeClassname: "fab fa-html5"
     },
     {
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    
+
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -113,7 +95,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    
+
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -122,7 +104,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    
+
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
@@ -137,27 +119,29 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "github",
-      fontAwesomeClassname: "fab fa-github" 
+      fontAwesomeClassname: "fab fa-github"
     },
     {
       skillName: "photoshop / Illustrator",
-      fontAwesomeClassname: "fas fa-pen-nib" 
+      fontAwesomeClassname: "fas fa-pen-nib"
     },
-   
+
     {
       skillName: "Figma",
-      fontAwesomeClassname: "fab fa-figma" 
+      fontAwesomeClassname: "fab fa-figma"
     },
     {
       skillName: "Unity-3D",
-      fontAwesomeClassname: "fas fa-gamepad"  
+      fontAwesomeClassname: "fab fa-unity"
     },
     {
       skillName: " Adobe Premire Pro",
-      fontAwesomeClassname: "fas fa-film"  
+      fontAwesomeClassname: "fas fa-film"
     },
-
-
+    {
+      skillName: " PHP",
+      fontAwesomeClassname: "fab fa-php"
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -174,9 +158,21 @@ const educationInfo = {
       duration: "March 2020 - Present",
       desc: "",
       descBullets: [
-        " In the First year I followed Statistics ,Media,Anthropology and ICT. ",
-        " Now I am following ICT BSC.Hons degree.",
-        " I am working for a lots of clubs and I have completed so many projects in my university life.",
+        " I am currently pursuing a Bachelor of Science (Hons) in Information Technology degree. ",
+        " Throughout my university tenure, I have actively contributed to various clubs and successfully executed numerous projects, showcasing my dedication and proficiency in both academic and practical domains.",
+        
+        
+      ]
+    },
+    {
+      schoolName: "Computer Society Of Sri Lanka",
+      logo: require("./assets/images/uiux.png"),
+      subHeader: "Certified Ui / UX Developer",
+      duration: "March 2022 - February 2023",
+      desc: "",
+      descBullets: [
+        " I possess proficiency in utilizing a diverse array of design and prototyping tools, including but not limited to Figma.",
+        " I have successfully delivered numerous UI/UX projects, showcasing my expertise in creating seamless and user-centric design solutions.",
         
       ]
     },
@@ -186,7 +182,7 @@ const educationInfo = {
       subHeader: "NVQ Level 4 in Information Technology",
       duration: "January 2016- March 2017",
       
-      descBullets: ["I have learnt Ms office package,Operating System,Graphic design ,networking,programming through Vocational training  etc:"]
+      descBullets: ["I have acquired proficiency in the Microsoft Office suite, operating systems, graphic design, networking, and programming through vocational training."]
     },
     {
       schoolName: "Tangalle Girls School",
@@ -194,9 +190,9 @@ const educationInfo = {
       subHeader: "Advanced level",
       duration: "January 2017- March 2020",
       
-      descBullets: ["I went to Tangalle girls college for studying Advanced level",
-      " I followed Logic,Media,Political as my Advanced level subjects",
-      "It helps to pass my advanced level exam with Two A Passes & B pass (AAB) and come through my university dream."]
+      descBullets: ["I attended Tangalle Girls' College to pursue my Advanced Level education.",
+      " During this period, I selected Logic, Media, and Political Science as my subjects. ",
+      "This strategic choice not only facilitated my successful attainment of Two A Passes and a B Pass (AAB) in the Advanced Level examinations but also paved the way for the realization of my aspirations to enter university."]
     },
     {
       schoolName: "H/ Vijayaba National School",
@@ -204,11 +200,10 @@ const educationInfo = {
       subHeader: "Primary to O/L",
       duration: "January 2004-January 2017",
 
-      descBullets: ["I went to Hungama vijayaba national  college since my primary to  ordinary level .",
-      "It helps to pass my o/l with high marks(A-6 , B-3)."]
-      
-      
-    }
+      descBullets: ["I attended Hungama Vijayaba National College from my primary education through the Ordinary Level examinations",
+      " This school played a crucial role in my academic journey, contributing significantly to my success in the Ordinary Level examinations where I achieved high grades, with A grades in 6 subjects and B grades in 3 subjects. (A-6, B-3)",
+      ]
+    },
   ]
 };
 
@@ -228,11 +223,11 @@ const techStack = {
     },
     {
       Stack: "React native",
-      progressPercentage: "40%"
+      progressPercentage: "20%"
     },
     {
       Stack: "Mern",
-      progressPercentage: "40%"
+      progressPercentage: "30%"
     },
     {
       Stack: "bootstrap",
@@ -253,6 +248,14 @@ const techStack = {
       Stack: "Premire Pro",
       progressPercentage: "50%"
     },
+    {
+      Stack: "PHP",
+      progressPercentage: "50%"
+    },
+     {
+      Stack: "Laravel",
+      progressPercentage: "20%"
+    },
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -262,6 +265,13 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+     {
+      role: "Software Engineer Intern",
+      company: "Arthur C Clarke Institute for Modern Technologies",
+      companylogo: require("./assets/images/arthur.png"),
+      date: "August 2023 – February 2024",
+      desc: ["Collaborated with Buddhist and Pali University on various software projects, providing expertise in MySQL, PHP, and Laravel technologies. Played a key role in developing and enhancing projects, showcasing proficiency in areas such as database management, frontend and backend development. Implemented efficient solutions to meet project requirements, ensuring the seamless functionality of the system."]
+    },
     {
       role: "Graphic Designer & Accountant",
       company: "Solid Graphic",
@@ -272,13 +282,7 @@ const workExperiences = {
         " I ensured that company books are balanced, company  tax obligations are covered, and that I was be able to make confident business decisions based on sound financial data.And as a graphic designer I created posters, websites, logos, brochures, magazines and many other materials to communicate ideas and information visually. "
       ]
     },
-    {
-      role: "Bank Assistant",
-      company: "Regional Development Bank",
-      companylogo: require("./assets/images/rdb.jpg"),
-      date: "January 2019 – March 2019",
-      desc: "As a bank assistant I have Gathered and analyzed financial and related data of customers.Assist customers in handling their deposits and check payments.Assist banking personnel in preparing and also I checked bank documents and statements and Ensure compliance of security and banking policies and guidelines in banking assistant functions."
-    },
+ 
     {
       role: "Graphic Designer",
       company: "IEEE Student Branch USJP",
@@ -321,51 +325,52 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Designing Projects",
+  title: "Designing Projects 🎨",
   subtitle: "There are so many designing projects that I have done so far.",
   projects: [
     {
       image: require("./assets/images/coffe.png"),
       projectName: "Coffee table book",
-      projectDesc: "Coffee table books need lots of it, in the form of generous margins, space around images, and space between lines of type.This coffee table book is a must-have for anyone who loves horror .I have included so many interesting characters.logos are designed using illustrator. Totaly book is designed using photoshop.Hallowin feeling is explored everywhere.",
-      
+      projectDesc:
+        "Coffee table books need lots of it, in the form of generous margins, space around images, and space between lines of type.This coffee table book is a must-have for anyone who loves horror .I have included so many interesting characters.logos are designed using illustrator. Totaly book is designed using photoshop.Hallowin feeling is explored everywhere.",
+
       footerLink: [
         {
           name: "Visit project",
           url: "https://www.behance.net/gallery/138281981/Cooffe-table-book"
-        },
+        }
         //  you can add extra buttons here.
       ]
     },
-    
+
     {
       image: require("./assets/images/graphic.png"),
       projectName: "Graphic designs",
-      projectDesc: "Graphic designs combine these three elements to form a single, cohesive visual composition of ideas and messaging.I am working in a lots of clubs in the university.So I have to create Flyers,Posters,Coffee table book,logos,digital Arts,Presentations for variety of purposes.Usually I am using photoshop & Illustrator for my designs.",
-      
+      projectDesc:
+        "Graphic designs combine these three elements to form a single, cohesive visual composition of ideas and messaging.I am working in a lots of clubs in the university.So I have to create Flyers,Posters,Coffee table book,logos,digital Arts,Presentations for variety of purposes.Usually I am using photoshop & Illustrator for my designs.",
+
       footerLink: [
         {
           name: "View projects",
           url: "https://www.behance.net/nipuniudari1"
-        },
+        }
         //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/UI.png"),
       projectName: "UI/UX designs",
-      projectDesc: "The first impressions are 94% design related.I designed apps and website user interface using figma online tool.I got a new look for the website by Using different buttons, navigations, colors , pictures.Accourding to the given feedbacks it is a user friendly UI and easy to use.I always try to reach a new look and feel for the projects.And using some online websites for pics.",
-      
+      projectDesc:
+        "The first impressions are 94% design related.I designed apps and website user interface using figma online tool.I got a new look for the website by Using different buttons, navigations, colors , pictures.I always try to reach a new look and feel for the projects.",
+
       footerLink: [
         {
           name: "View projects",
           url: "https://www.behance.net/nipuniudari1"
-        },
+        }
         //  you can add extra buttons here.
       ]
-    },
-   
-    
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -374,15 +379,35 @@ const bigProjects = {
 
 
 const ExtraProjects = {
-  title: "Other Projects",
-  subtitle: "There are some different kind of projects that I have done so far.",
+  title: "Other Projects 📂",
+  subtitle:
+    "There are some different kind of projects that I have done so far.",
   projects: [
     {
-      
-      image: require("./assets/images/game.png" ),
+      image: require("./assets/images/AR.png"),
+      projectName:
+        "Research - The impact Of Augmented Reality On Biology Studies in Sri Lankan School Students",
+      projectDesc:
+        "This research project aims to investigate the impact of augmented reality on biology studies in Sri Lankan school students, with a specific focus on the development of an augmented reality mobile app for human anatomy education.",
+
+      footerLink: [
+        {
+          name: "View project",
+          url: "https://youtu.be/x-8XM5suW6M?si=kMZekwocw6DdZNRu"
+        },
+        {
+          name: "Visit project",
+          url: "https://github.com/nipuni-udari/AR-App-Human-anatomy"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/game.png"),
       projectName: "Roll A Ball Game",
-      projectDesc: "I developed a 3D game using unity platform.I learn throught the development process :Use Unity Editor and its built-in capabilities to set up a simple game environment,Write your own custom scripts to create the game functionality,Create a basic user interface to improve the game experience,Build my game as other people can play it!",
-      
+      projectDesc:
+        "I developed a 3D game using unity platform.I learn throught the development process :Use Unity Editor and its built-in capabilities to set up a simple game environment,Write your own custom scripts to create the game functionality,Create a basic user interface to improve the game experience,Build my game as other people can play it!",
+
       footerLink: [
         {
           name: "View project",
@@ -391,27 +416,29 @@ const ExtraProjects = {
         {
           name: "Visit project",
           url: "https://drive.google.com/drive/folders/1V8MH-zCjBFpnUR8e7I-3_Ne3YUFtQ5QH?usp=share_link"
-        },
+        }
         //  you can add extra buttons here.
-      ],
-      
-      
+      ]
     },
-    
+
     {
       image: require("./assets/images/iot.png"),
       projectName: "IOT Project",
-      projectDesc: "smart Dustbin is a very good project from the Arduino board.Smart Dustbin as its name represents it works smartly or we can say that it is an automatic dustbin. it works like when you will come in front of this dustbin it will open automatically with the help of a servo motor. so there is some sensor work to detect the object in front of the dustbin",
-      
+      projectDesc:
+        "smart Dustbin is a very good project from the Arduino board.Smart Dustbin as its name represents it works smartly or we can say that it is an automatic dustbin. it works like when you will come in front of this dustbin it will open automatically with the help of a servo motor. so there is some sensor work to detect the object in front of the dustbin",
+
       footerLink: [
         {
           name: "View project",
           url: "https://youtu.be/f7r6pQYRCOI"
         },
+        {
+          name: "Visit project",
+          url: "https://github.com/nipuni-udari/Roll_A_Ball_Game"
+        }
         //  you can add extra buttons here.
       ]
-    },
-    
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -421,15 +448,15 @@ const ExtraProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: ("Achievements And Certifications 🏆 "),
+  title: "Achievements And Certifications 🏆 ",
   subtitle:
     "Achievements, Certifications and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
       title: "ICT NVQ LEVEL 4 ",
-      
-      image: require("./assets/images/1.png"),
+
+      image: require("./assets/images/c4.png"),
       footerLink: [
         {
           name: "Certification",
@@ -438,47 +465,110 @@ const achievementSection = {
         {
           name: "Website",
           url: "https://www.tvec.gov.lk/"
-        },
-      ]
-    },
-    
-    {
-      title: "Introduction to IoT",
-      image: require("./assets/images/2.png"),
-      footerLink: [
-        {name: "Certification", url: "https://www.credly.com/badges/3fb711e3-de3d-4311-8870-06d2447b3d52?source=linked_in_profile"},
-        {
-          name: "Website",
-          url: "https://www.cisco.com/c/en/us/solutions/internet-of-things/overview.html"
-        },
+        }
       ]
     },
 
     {
-      title: "Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning",
-      image: require("./assets/images/3.png"),
+      title: "Python For Beginners",
+      image: require("./assets/images/c6.png"),
       footerLink: [
-        {name: "Certification", url: "https://www.coursera.org/account/accomplishments/verify/XSDVZ3NN7ACW"},
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1gMJ9TOmvSBap2wLNyXk7JIeRoqRycvmv/view?usp=drive_link"
+        },
         {
           name: "Website",
-          url: "https://www.coursera.org/learn/introduction-tensorflow"
+          url: "https://open.uom.lk/fullstack-developer.html"
+        }
+      ]
+    },
+
+    {
+      title: "Front-End Web development using js & react",
+      image: require("./assets/images/c5.png"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1My0Lh0HKO0rCALfVhVXItzbhdI5Ccgnp/view?usp=sharing"
         },
+        {
+          name: "Website",
+          url: "https://www.devtown.in/events/front-end-web-development-javascript-and-react"
+        }
       ]
     },
 
     {
       title: "Introduction to Deep Learning with OpenCV",
-      image: require("./assets/images/6.png"),
+      image: require("./assets/images/c3.png"),
       footerLink: [
-        {name: "Certification", url: "https://drive.google.com/file/d/1bmfm8r74TPUzvqlaL8MAZHE7yYpZBiYT/view?usp=share_link"},
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1bmfm8r74TPUzvqlaL8MAZHE7yYpZBiYT/view?usp=share_link"
+        },
         {
           name: "Website",
           url: "https://www.linkedin.com/learning/introduction-to-deep-learning-with-opencv"
-        },
+        }
       ]
     },
-   
-
+    {
+      title: "Certified Ui / UX Developer",
+      image: require("./assets/images/c1.png"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1PUpiehlCsp7IyojurbrwHexW4irVK90F/view?usp=sharing"
+        },
+        {
+          name: "Website",
+          url: "https://crowdlearn.co/extranet/Numind_Education"
+        }
+      ]
+    },
+    {
+      title: "D hack Ui / UX challenge",
+      image: require("./assets/images/c2.png"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1bmfm8r74TPUzvqlaL8MAZHE7yYpZBiYT/view?usp=share_link"
+        },
+        {
+          name: "Website",
+          url: "https://mgt.sjp.ac.lk/itc/d-hack-2020-final/"
+        }
+      ]
+    },
+    {
+      title: "Getting started with React",
+      image: require("./assets/images/c7.png"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1ujMDhYmUh0CbT3Bo9vgECOTslLOS1K3r/view?usp=sharing"
+        },
+        {
+          name: "Website",
+          url: "https://www.devtown.in/events/getting-started-with-react-bootcamp-free-7-days-long-bootcamp"
+        }
+      ]
+    },
+    {
+      title: "Most oustanding Programmer of the year",
+      image: require("./assets/images/c8.png"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1eTFFRGGK857PFJOWt_vV6YMVqjvv0iV-/view?usp=sharing"
+        },
+        {
+          name: "Website",
+          url: "https://jpuravoice.lk/programming-division/"
+        }
+      ]
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -486,28 +576,28 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Blogs ✍️",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://nipuni-udari.blogspot.com/2022/02/role-of-mass-media-in-managing-covid-19.html",
-      title: "Role of mass media in managing Covid-19 Pandemic",
+      url: "https://udarirajapaksha.medium.com/free-hosting-platforms-2023-f005e594727f",
+      title: "Free Hosting platforms-2023",
       description:
-        "COVID-19 is a global crisis that has spread throughout the world at a dangerously fast pace. Mass media plays a huge role in circulating information, influences the public behavior and can curtail the spread of disease. "
+        "If you’re looking to start your own website or blog, then you may be wondering where to host it. While there are many paid hosting options available, free hosting platforms can be a great starting point for beginners or those on a tight budget. "
     },
     {
-      url: "https://nipuni-udari.blogspot.com/2022/02/how-new-media-changed-fundamental.html",
-      title: "How New Media Changed the Fundamental Nature of the Communication",
+      url: "https://udarirajapaksha.medium.com/static-site-generators-ssg-2023-de77e95daac8",
+      title: "Static Site Generators (SSG)-2023",
       description:
-        "The emergence of globalization  in the first decade of the twenty-first century was itself a revolution in the short history of the New media, fostering the rise of social media and other interactive, crowd-based communication tools."
+        "Are you tired of constantly updating your website’s content and dealing with complex content management systems? Static site generators might be just what you need!"
     },
     {
-      url: "https://nipuni-udari.blogspot.com/2022/03/how-communication-elements-operated-in.html",
-      title: "How communication elements operated in the communication process when spreading corona pandemic information via television.",
+      url: "https://udarirajapaksha.medium.com/laravel-for-e-commerce-in-2024-building-scalable-online-stores-c4c3a5ac9819",
+      title: "Laravel for E-commerce in 2024",
       description:
-        "A novel coronavirus is a virus that causes the disease COVID-19 (SARS-coV-2, previously known as 2019-nCoV), which causes an acute respiratory illness has started in China in December 2019 and spread throughout the world. Due to outbreak of COVID-19 Disease more than half of the world is practicing lockdown, which made a deep impact on our daily life routine, unlike we used to practice before. But as we know that to lower the spread of virus we require social distancing.  These days massive effect of media is seen. According to a survey there is 87% of increase in social media usage during lockdown."
+        "In the rapidly evolving landscape of e-commerce, selecting the right framework for your online store is crucial. As of 2024, Laravel has emerged as a powerhouse in web development, and its role in building and scaling e-commerce platforms is more prominent than ever."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -516,7 +606,7 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "Talks",
+  title: "Talks 📩",
   subtitle: emoji(
     "I'd love to hear from you, just to discuss anything.I love to talk about myself & technology"
   ),
@@ -525,8 +615,7 @@ const talkSection = {
     {
       title: "Email me",
       subtitle: "Feel free to ask anything",
-      slides_url: "mailto:96770@fhss.sjp.ac.lk",
-      
+      slides_url: "mailto:udariweeraman@gmail.com"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -550,7 +639,7 @@ const contactInfo = {
   subtitle:
     "Feel free to snoop around on my SOCIAL MEDIA.",
   number: "+94-711064083",
-  email_address: "96770@fhss.sjp.ac.lk"
+  email_address: "udariweeraman@gmail.com"
 };
 
 // Twitter Section
