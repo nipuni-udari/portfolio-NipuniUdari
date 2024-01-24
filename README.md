@@ -3,8 +3,10 @@ A design portfolio is a showcase of professional skills, About, projects, Blogs,
 
 ## Demo : https://www.nipuniudari.me/
 
-![p7](https://user-images.githubusercontent.com/84343511/202999488-fef56f2e-bcee-46a8-9919-8ae1a4066e97.png)
+
  
+![portfolio ](https://github.com/nipuni-udari/portfolio-NipuniUdari/assets/84343511/6a3a11ff-21f4-4750-bfed-06361ae3cd5c)
+![portfolio 2](https://github.com/nipuni-udari/portfolio-NipuniUdari/assets/84343511/766bc6a0-350d-4376-96dd-be5ea4c7ff71)
 
 
 
