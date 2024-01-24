@@ -608,7 +608,7 @@ const blogSection = {
 const talkSection = {
   title: "Talks 📩",
   subtitle: emoji(
-    "I'd love to hear from you, just to discuss anything.I love to talk about myself & technology"
+    "I'm always excited to engage in conversations—whether it's about my journey, technology trends, or anything that sparks curiosity. Feel free to reach out, and let's have a meaningful discussion"
   ),
 
   talks: [

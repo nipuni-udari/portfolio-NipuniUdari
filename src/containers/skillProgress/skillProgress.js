@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/accessible-emoji */
 import React from "react";
 import "./Progress.scss";
 import {illustration, techStack} from "../../portfolio";

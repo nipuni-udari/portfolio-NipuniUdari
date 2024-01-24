@@ -9,7 +9,6 @@ import {
   skillsSection,
   bigProjects,
   openSource,
-  blogSection,
   educationInfo,
   achievementSection
 } from "../../portfolio";
@@ -22,7 +21,7 @@ function Header() {
   const viewBigProjects = bigProjects.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
-  const viewBlog = blogSection.display;
+
 
   return (
     <Headroom>
