@@ -20,14 +20,12 @@ const illustration = {
 };
 
 const greeting = {
-  
   username: "Nipuni Udari",
   title: "Hi there, I'm Nipuni Udari",
-  subTitle:(
-    " I'm all about combining visual design with product thinking to bring meaningful experiences alive who's passionate about creating digital experiences through problem-solving. I fell in love with coding, exploring, travelling, Photography,Painting,designing."
-  ),
+  subTitle:
+    " I'm all about combining visual design with product thinking to bring meaningful experiences alive who's passionate about creating digital experiences through problem-solving. I fell in love with coding, exploring, travelling, Photography,Painting,designing.",
   resumeLink:
-  "https://drive.google.com/file/d/1EfXliXjRlldO2ItkNsO1vnKHVdwmghul/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1FhMWaB3z0iVWiClgiF1j9K5Ru8q8MXX9/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
